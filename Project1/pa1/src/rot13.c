@@ -22,7 +22,7 @@ int main() {
         sbuff = new_buff;
       }
       else {
-        printf("There is an input error .\n");
+        printf("There is an input error.\n");
         return 1;
       }
     }

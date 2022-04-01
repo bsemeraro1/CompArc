@@ -138,6 +138,7 @@ int main()
                         else command = 'q';
                        
                         while ((getchar()) != '\n');
-    }while(isvalid(command));
+    }
+    while(isvalid(command));
 return 0;
 }
