@@ -8,20 +8,17 @@
 typedef struct node
 
 {
-
+       struct node *next;
        int data;
 
-       struct node *next;
+       
 
 } Node;
 
-Node* insert(Node *head, int n);
-
-int length(Node* head);
-
-Node* delete(Node* head, int n);
-
 int contains(Node *head, int n);
+Node* insert(Node *head, int n);
+Node* delete(Node* head, int n);
+int length(Node* head);
 
 void deleteList(Node *head);
 
