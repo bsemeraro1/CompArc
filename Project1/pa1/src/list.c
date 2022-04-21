@@ -26,11 +26,12 @@ void print(Node *head);
 
 int main(void) {
 
+       char command;
        Node *head = NULL; 
 
        int data;
 
-       char command;
+       
 
        do
 

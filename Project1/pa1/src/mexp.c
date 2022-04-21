@@ -17,9 +17,9 @@ int main (int argc, char *argv[])
     }
     int i, j, k, m, n, times; 
     fscanf(fp, "%d", &n);
-    int res = (int **)malloc(n*sizeof(int *));
-    int M = (int  **)malloc(n * sizeof(int *));
-    int M1 = (int **)malloc(n * sizeof(int *));
+    int **res = (int **)malloc(n*sizeof(int *));
+    int **M = (int  **)malloc(n * sizeof(int *));
+    int ** M1 = (int **)malloc(n * sizeof(int *));
     for (i = 0; i < n; i++) {
         M1[i] = (int *)malloc(n * sizeof(int));
         res[i] = (int *)malloc(n * sizeof(int));

@@ -44,7 +44,7 @@ void insertionSort(int arr[], int size){
 int main(int argc, char* argv[argc + 1]){
 
 	if(argc < 2){
-		printf("insufficient arguments");
+		printf("There are insufficient arguments");
 		return EXIT_SUCCESS;
 	}
 	
